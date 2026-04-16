@@ -1,0 +1,6 @@
+.team {
+    background: #f4f4fd;
+}
+.team > ul > li {
+    background: #ffffff;
+}
