@@ -6,7 +6,18 @@ body {
     letter-spacing: 0.2em;
     color: #434455;
     background-color: #fff;
+    margin: 0;
+    padding: 0;
 }
 ul {
     list-style-type: none;
+}
+img {
+    display: block;
+}
+.container {
+    margin: 0 auto;
+    padding: 0 15px;
+    width: 1128px;
+    height: auto;
 }

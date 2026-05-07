@@ -5,6 +5,34 @@
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    margin-top: 0;
+    margin-bottom: 72px;
+}
+.container-portfolio {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 120px 0;
+}
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    row-gap: 48px;
+    column-gap: 24px;
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0;
+    width: 1158px;
+}
+.portfolio-list-item {
+    border-bottom: 1px solid #e7e9fc;
+    border-left: 1px solid #e7e9fc;
+    border-right: 1px solid #e7e9fc;
+    width: 360px;
 }
 .portfolio-list-title {
     font-weight: 500;
@@ -12,6 +40,9 @@
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding-top: 32px;
+    padding-left: 16px; 
+    margin: 0;
 }
 .portfolio-list-text {
     font-weight: 400;
@@ -19,4 +50,6 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    padding: 8px 0 32px 16px;
+    margin: 0;
 }
